@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    width: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 50px 0px;
+    align-content: center;
+    gap: 40%;
+}
+
+nav h3 {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav button {
+    color: rgb(13, 19, 33);
+    background-color: white;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.8;
+}
+
+/* banner-section  start*/
+
+.banner-section {
+    max-width: 1920px;
+    height: 600px;
+    background-image: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-size: cover;
+    margin: 0px auto 154px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-img {
+    width: 240px;
+    height: 240px;
+    background-image: url(B10A1-Challenge-Begins/assets/Group.png);
+    margin-bottom: 32px;
+}
+
+.banner-header {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.banner-text {
+    color: rgb(10, 14, 26);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-btn {
+    width: 180px;
+    height: 60px;
+    color: white;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.first-second-section {
+    background-color: #0D132105;
+    width: 1140px;
+    margin: 0px auto 100px auto;
+    padding-top: 35px;
+}
+
+
+/* first section start */
+
+.first-section {
+    width: auto;
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.first-section-header {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.first-section-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* second section start  */
+
+.second-section {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.second-section-box1 {
+    width: 850px;
+    height: 240px;
+    background-color: white;
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1-text-btn h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.box1-text-btn p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.box1-text-btn button {
+    width: 150px;
+    height: 48px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.box1-img {
+    width: 259.56px;
+    height: 217.01px;
+    background-image: url(B10A1-Challenge-Begins/assets/Layer_1.png);
+}
+
+
+.second-section-box2 {
+    width: 850px;
+    height: 240px;
+    background-color: white;
+    margin-bottom: 128px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.box2-img {
+    width: 259.56px;
+    height: 217.01px;
+    background-image: url(B10A1-Challenge-Begins/assets/Group\ 3.png);
+}
+
+.second-section-box3 {
+    width: 850px;
+    height: 240px;
+    background-color: white;
+    margin-bottom: 160px;
+}
+
+.box3-img {
+    width: 259.56px;
+    height: 217.01px;
+    background-image: url(B10A1-Challenge-Begins/assets/Group\ 4.png);
+}
+
+/* third section start */
+
+.third-section {
+    height: 660px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 145px;
+}
+
+.third-section-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+.third-section-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    opacity: 0.7;
+    
+}
+
+.third-section-content iframe {
+    border: 2px solid #0D132133;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* fourth-section */
+
+.fourth-section {
+    width: 1140px;
+    margin: 0px auto 110px auto;
+    text-align: center;
+}
+
+.fourth-section h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.fourth-section p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+.three-target {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 19px;
+}
+
+.target-one {
+    width: 300px;
+    height: 250px;
+    background-color: #FF4C1E0D;
+    border-radius: 7px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.target-one-content {
+    text-align: left;
+    /* gap: 69px; */
+}
+
+.target-one-content img {
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+
+.target-one-content p{
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.target-header {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.fourth-section-a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.target-two {
+    width: 300px;
+    height: 250px;
+    background-color: #004CE80D;
+    border-radius: 7px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.target-two-content {
+    text-align: left;
+    /* gap: 69px; */
+}
+
+.target-two-content img {
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+
+.target-two-content p{
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.target-three {
+    width: 300px;
+    height: 250px;
+    background-color: #FFDF000D;
+    border-radius: 7px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.target-three-content {
+    text-align: left;
+    /* gap: 69px; */
+}
+
+.target-three-content img {
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+
+.target-three-content p{
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+
+/* fifth-section */
+
+.fifth-section {
+    width: 1140px;
+    /* height: 708px; */
+    margin: 0px auto 110px auto;
+}
+
+.fifth-section .fifth-section-header {
+    text-align: center;
+}
+
+.fifth-section h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.fifth-section p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    opacity: 0.7;
+}
+
+/* React option */
+
+
+.react {
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 24px;
+}
+
+.react-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.react-h3 {
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.react-text .course-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.node {
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 24px;
+}
+
+.node-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.node-h3 {
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.node-text .course-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* mongo */
+.mongo {
+    height: 220px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 24px;
+}
+
+.mongo-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.mongo-h3 {
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.mongo-text .course-link {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.sixth-section {
+    width: 1140px;
+    height: 314px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    margin: 0px auto 80px auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    
+}
+
+.sixth-section-header {
+    color: white;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    margin-top: 44px;
+}
+
+.sixth-section-para {
+    color: white;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.feedback {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    
+}
+
+input {
+    width: 548px;
+    height: 57px;
+}
+
+textarea {
+    
+    font-family: Azeret Mono;
+    color: #0D132166;
+    align-content: center;
+    text-align: left;
+    padding: 4px 4px 4px 4px;
+    border-radius: 6px;
+}
+
+input {
+    width: 90px;
+    height: 40px;
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+
+footer {
+    width: 1140px;
+    height: 80px;
+    background-color: #0D132108;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto 0px auto;
+    padding: 0px 100px 0px 100px;
+   
+}
+
+.footer-text {
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 20px;
+   font-weight: 700;
+   
+}
+
+.foot {
+    gap: 15px;
+    display: flex;
+}
+
+.facebook {
+    margin-right: 24px;
+}
+
+.github {
+    margin-right: 24px;
+}
