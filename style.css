@@ -245,7 +245,10 @@ nav button {
     
 }
 
-.third-section-content iframe {
+.video {
+    aspect-ratio: 16 / 9;
+    width: 1000px;
+    /* height: 500px; */
     border: 2px solid #0D132133;
     border-radius: 12px;
     padding: 15px;
@@ -278,6 +281,7 @@ nav button {
 
 .three-target {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     gap: 19px;
@@ -561,9 +565,13 @@ nav button {
     
 }
 
-input {
-    width: 548px;
+.feedback input {
     height: 57px;
+}
+
+.feedback .feedback-box {
+    width: 555px;
+   
 }
 
 textarea {
@@ -618,3 +626,75 @@ footer {
 .github {
     margin-right: 24px;
 }
+
+
+/* responsive media queries */
+
+/* Smaller device */
+
+@media screen and (max-width: 576px) {
+    nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .first-section-header, .first-section-para {
+        text-align: center;
+        margin-left: 10px;
+    }
+    .first-section-header{
+        margin-right: 600px;
+    }
+    .first-section-para  {
+        padding-right: 550px;
+        margin-right: 90px;
+    }
+    .second-section, .second-section-box1, .second-section-box2, .second-section-box3 {
+        flex-direction: column;
+    }
+    .second-section-box1, .second-section-box2, .second-section-box3 {
+        height: 400px;
+        margin-right: 600px;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: none;
+        gap: 10px;
+    }
+    .second-section-box2 {
+        flex-direction: column;
+    }
+    .second-section-box2-header {
+        margin-right: 30px;
+    }
+    .second-section-box3 {
+        flex-direction: column;
+    }
+    .third-section-content p {
+       padding: 0px 40px 0px 40px;
+    }
+    .video {
+        aspect-ratio: 16 / 9;
+        width: 400px;
+    }
+    .fourth-section {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .fourth-section h1 {
+        margin-right: 600px;
+    }
+    .fourth-section > p {
+        margin-right: 640px;
+        margin-left: 30px;
+    }
+    .three-target {
+        flex-direction: column;
+        margin-right: 600px;
+    }
+    
+    footer {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
